@@ -57,6 +57,35 @@ public class HW8 {
         createTaskNumber(12);
         System.out.println(countOddArray(createArray(2,2,2,1,1)));
 
+        System.out.println("Part2");
+        createTaskNumber(13);
+        System.out.println(printArray(isItMore10(createArray(10,10,11,1,1))));
+
+        createTaskNumber(14);
+        System.out.println((createSentence(createArray("Tom", "Myata", "Vasilii",
+                "Bandit","Myrka"))));
+
+        createTaskNumber(15);
+        System.out.println(countSecondHalf(createArray(1,2,3,4,5)));
+        System.out.println(countSecondHalf(new int[] {1,2,3,4,5,6}));
+
+        createTaskNumber(16);
+        System.out.println(printArray(multiplesOfNumber(2)));
+
+        createTaskNumber(17);
+        System.out.println(printArray(countMore(createArray(1,1,1,1,1))));
+        System.out.println(printArray(countMore(new int[] {1,1,1,2,2,2})));
+
+        createTaskNumber(18);
+        System.out.println(printArray(createRandomArr(10)));
+
+        createTaskNumber(19);
+        System.out.println(printArray(createRandomArr(5,10)));
+
+
+
+
+
 
     }
 
